@@ -4,13 +4,13 @@ To create an archival search program
 Here is my final program!
 Just a heads up: It will run, it may take a minute, but it will run. I had to do a lot of funky hash table as a list recursion which pushed the run time up.
 This is probably my least well designed program because I really struggled to deal with sorting a hash table of hashes based on their keys key value pair. But overall I am happy with the result as this is definitely the most complex program I've had to do in racket.
-*
-*
-*
-*
-*
-*
-*
+-
+-
+-
+-
+-
+-
+-
 Our last program will give you a chance to show off how much you’ve learned in this course, using a simple example of a larger problem—archival search.
 
 Our search corpus consists of 25 text files—these include fiction, news articles, poetry, recipes—basically, some odds & ends. Your program will read them, develop a profile of each by extending the techniques we used in the authorship program, and allowing the user to interact with the program—when the user enters a search term, your program will return a ranked list of possible matches, with the best match first, and a short excerpt from the beginning of each match.
