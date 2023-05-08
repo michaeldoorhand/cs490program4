@@ -3,7 +3,8 @@ To create an archival search program
 
 Here is my final program!
 Just a heads up: It will run, it may take a minute, but it will run. I had to do a lot of funky hash table as a list recursion which pushed the run time up.
-This is probably my least well designed program because I really struggled to deal with sorting a hash table of hashes based on their keys key value pair. But overall I am happy with the result as this is definitely the most complex program I've had to do in racket.
+This is probably my least well designed program because I really struggled to deal with sorting a hash table of hashes based on their keys key value pair. Another note about the design: it searches for word occurences in the database hash, and adds them to the results even if no matches were found, this is one aspect in particular im not thriled about. But overall I am happy with the result as this is definitely the most complex program I've had to do in racket.
+
 -
 -
 -
